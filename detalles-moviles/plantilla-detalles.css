@@ -1,0 +1,79 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(23, 0, 59)
+}
+
+/* 1284 owell libro*/
+
+/* Estilo general para el body */
+body {
+    padding: 2rem;
+    background-color: white;
+    padding-top: 0.5rem;
+    background-color: rgb(243, 245 ,250)
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+.detalles > span > img {
+    width: 2.1rem;
+}
+
+span {
+    margin-bottom: 0.5rem; /* Espacio entre los elementos <span> */
+    font-size: 2rem; /* Tamaño de la fuente */
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding-inline: 5rem;
+    padding-block: 2rem;
+    border: solid 1px white;
+    border-radius: 50px;
+    font-size: larger;
+}
+/* El contenedor principal con flexbox */
+#padre {
+    display: flex;
+    justify-content: space-between; /* Distribuye la imagen y los detalles */
+    align-items: flex-start; /* Alinea los elementos al inicio (arriba) */
+}
+
+/* Contenedor de imagen y detalles */
+#informacion {
+    display: flex; /* Flexbox para organizar los elementos horizontalmente */
+    flex-direction: row; /* Alineación horizontal de la imagen y los detalles */
+    align-items: flex-start; /* Alineación vertical en la parte superior */
+}
+
+/* Estilo de la imagen */
+#informacion img {
+    max-width: 300px; /* Limita el ancho de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-right: 1.5rem; /* Espacio entre la imagen y los detalles */
+}
+
+#videos {
+    display: flex;
+    flex-direction: column;   
+}
+
+/* Estilo para los detalles de la imagen (los <span>) */
+.detalles {
+    display: flex;
+    flex-direction: column; /* Los <span> se organizan en una columna */
+    justify-content: flex-start; /* Alinea los <span> al principio */
+}
+
+.comprar {
+    margin-top: 3rem;
+}
+
+
+/* a not:(last-of-type)
+

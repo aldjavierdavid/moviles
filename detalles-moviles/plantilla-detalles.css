@@ -26,6 +26,8 @@ h1 {
 span {
     margin-bottom: 0.5rem; /* Espacio entre los elementos <span> */
     font-size: 2rem; /* Tamaño de la fuente */
+    display: flex;
+    align-items: center;
 }
 
 button {
@@ -75,5 +77,44 @@ button {
 }
 
 
-/* a not:(last-of-type)
+/* a not:(last-of-type) */
+
+@media (max-aspect-ratio: 11/19) {
+
+    .detalles > span > img  {
+        width: 1.5rem;
+    }
+
+    
+    span {
+        font-size: 1.5rem;
+    }
+    
+    #informacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #informacion>img {
+        margin-bottom: 0.9rem;
+    }
+    
+    #padre {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #informacion > .detalles > span > img {
+        margin-right: 0.5rem
+    }
+
+    #videos {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
 

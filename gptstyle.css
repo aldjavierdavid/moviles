@@ -35,15 +35,6 @@ p {
 .negrita {
     font-weight: bold;
 }
-#padre {
-    display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias filas */
-    gap: 1.5rem; /* Espacio entre las tarjetas */
-    justify-content: space-between; /* Distribuye los elementos en líneas */
-    padding: 1rem; /* Espaciado interno */
-    width: 100%;
-    overflow: hidden; /* Evitar cualquier desbordamiento dentro de #padre */
-}
 
 /* Estilos para los elementos .movil */
 .movil {
@@ -63,4 +54,14 @@ p {
 /* Agregar un poco de estilo a las etiquetas <p> dentro de .movil */
 .movil p {
     margin: 0.5rem 0;
+}
+
+#padre {
+display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en varias filas */
+    gap: 1.5rem; /* Espacio entre las tarjetas */
+    justify-content: space-between; /* Distribuye los elementos en líneas */
+    padding: 1rem; /* Espaciado interno */
+    width: 100%;
+    overflow: hidden; /* Evitar cualquier desbordamiento dentro de #padre */
 }

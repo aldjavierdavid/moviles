@@ -10,8 +10,8 @@ const moviles = [];
 for (let i = 0; i < marcas.length; i++) {
     let marca = marcas[i].textContent.replace("Marca: ", "").trim();  // Eliminar "Marca: "
     let modelo = modelos[i].textContent.replace("Modelo: ", "").trim(); // Eliminar "Modelo: "
-    let pagina = enlaces[i].href;  // Obtenemos la URL del enlace
-    let imagen = enlaces[i].querySelector("img").src; // Obtenemos la URL de la imagen
+   let pagina = enlaces[i].href;  // Obtenemos la URL del enlace
+  let imagen = enlaces[i].querySelector("img").src; // Obtenemos la URL de la imagen
     
     moviles.push({ marca, modelo, pagina, imagen });
 }

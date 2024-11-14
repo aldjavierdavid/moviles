@@ -4,136 +4,153 @@
     <meta charset="UTF-8">
     <title>Movileishon</title>
     <link rel="stylesheet" href="gptstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
+    <header>
+        <h1>Movileishon</h1>
+        <div id="buscador">
+        <input placeholder="Buscar..." type="text" data-busqueda><button><img src="\iconos\search.svg" alt=""></button>
+        </div>
+    </header>
+    <div id="seleccionador">
+    <select name="filtrar" id="filtros">
+        <option value="mas-barato">Más baratos primero</option>
+        <option value="mas-caro">Más caros primero</option>
+    </select>
+</div>
     <div id="padre">
         <div class="movil">
-            <a href="./detalles-moviles/xiaomi-redmi-note-13-pro.html">
-            <img src="./imagenes/xiaomi_redmi_note_13_pro.jpg">
+            <a data-pagina href="./detalles-moviles/xiaomi-redmi-note-13-pro.html">
+            <img data-imagen src="./imagenes/xiaomi_redmi_note_13_pro.jpg">
             </a>
-            <p>Marca: Xiaomi</p>
-            <p>Modelo: Redmi Note 13 Pro</p>
+            <p class="marca">Marca: Xiaomi</p>
+            <p class="modelo">Modelo: Redmi Note 13 Pro</p>
             <p>Precio: desde 201€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/oneplus-12.html">
              <img src="./imagenes/oneplus_12.jpg">
             </a>
-            <p>Marca: OnePlus</p>
-            <p>Modelo: OnePlus 12</p>
+            <p class="marca">Marca: OnePlus</p>
+            <p class="modelo">Modelo: OnePlus 12</p>
             <p>Precio: desde 609€</p>
         </div>     
         <div class="movil">
             <a href=".\detalles-moviles\xiaomi-14t-pro.html">
              <img src="./imagenes/xiaomi-14t-pro.jpg">
             </a>
-            <p>Marca: Xiaomi</p>
-            <p>Modelo: 14T Pro</p>
+            <p class="marca">Marca: Xiaomi</p>
+            <p class="modelo">Modelo: 14T Pro</p>
             <p>Precio: desde 609€</p>
         </div>
         <div class="movil">
             <a href=".\detalles-moviles\samsung-galaxy-s24-ultra.html">
              <img src="./imagenes/samsung-galaxy-s24-ultra.jpg">
             </a>
-            <p>Marca: Samsung</p>
-            <p>Modelo: Galaxy S24 Ultra</p>
+            <p class="marca">Marca: Samsung</p>
+            <p class="modelo">Modelo: Galaxy S24 Ultra</p>
             <p>Precio: desde 850€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/google-pixel-9-pro.html">
              <img src="./imagenes/google-pixel-9-pro.jpg">
             </a>
-            <p>Marca: Google</p>
-            <p>Modelo: Pixel 9 Pro</p>
+            <p class="marca">Marca: Google</p>
+            <p class="modelo">Modelo: Pixel 9 Pro</p>
             <p>Precio: desde 201€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/apple-iphone-16-pro-max.html">
              <img src="./imagenes/apple-iphone-16-pro-max.jpg">
             </a>
-            <p>Marca: Apple</p>
-            <p>Modelo: Iphone 16 Pro Max</p>
+            <p class="marca">Marca: Apple</p>
+            <p class="modelo">Modelo: Iphone 16 Pro Max</p>
             <p>Precio: desde 1353€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/poco-x6-pro.html">
              <img src="./imagenes/poco-x6-pro.jpg">
             </a>
-            <p>Marca: Poco</p>
-            <p>Modelo: X6 Pro</p>
+            <p class="marca">Marca: Poco</p>
+            <p class="modelo">Modelo: X6 Pro</p>
             <p>Precio: desde 201€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/oneplus-nord-3.html">
              <img src="./imagenes/oneplus-nord-3.jpg">
             </a>
-            <p>Marca: OnePlus</p>
-            <p>Modelo: Nord 3</p>
+            <p class="marca">Marca: OnePlus</p>
+            <p class="modelo">Modelo: Nord 3</p>
             <p>Precio: desde 243€</p>
         </div>  
         <div class="movil">
             <a href="./detalles-moviles/realme-gt-6.html">
              <img src="./imagenes/realme-gt-6.jpg">
             </a>
-            <p>Marca: Realme</p>
-            <p>Modelo: GT 6</p>
+            <p class="marca">Marca: Realme</p>
+            <p class="modelo">Modelo: GT 6</p>
             <p>Precio: desde 357€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/motorola-edge-30.html">
              <img src="./imagenes/motorola-edge-30.jpg">
             </a>
-            <p>Marca: Motorola</p>
-            <p>Modelo: Edge 30</p>
+            <p class="marca">Marca: Motorola</p>
+            <p class="modelo">Modelo: Edge 30</p>
             <p>Precio: desde 175€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/honor-70.html">
              <img src="./imagenes/honor-70.jpg">
             </a>
-            <p>Marca: Honor</p>
-            <p>Modelo: Honor 70</p>
+            <p class="marca">Marca: Honor</p>
+            <p class="modelo">Modelo: Honor 70</p>
             <p>Precio: desde 303€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/huawei-p30-pro.html">
              <img src="./imagenes/huawei-p30-pro.jpeg">
             </a>
-            <p>Marca: Huawei</p>
-            <p>Modelo: P30 Pro</p>
+            <p class="marca">Marca: Huawei</p>
+            <p class="modelo">Modelo: P30 Pro</p>
             <p>Precio: desde 394€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/oppo-reno-11-f-5g.html">
              <img src="./imagenes/oppo-reno-11-f-5g.jpg">
             </a>
-            <p>Marca: Oppo</p>
-            <p>Modelo: Reno 11 F 5G</p>
+            <p class="marca">Marca: Oppo</p>
+            <p class="modelo">Modelo: Reno 11 F 5G</p>
             <p>Precio: desde 221€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/blackview-bv9300.html">
              <img src="./imagenes/blackview-bv9300.jpg">
             </a>
-            <p>Marca: Blackview</p>
-            <p>Modelo: BV9300</p>
+            <p class="marca">Marca: Blackview</p>
+            <p class="modelo">Modelo: BV9300</p>
             <p>Precio: desde 160€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/nothing-phone-1.html">
              <img src="./imagenes/nothing-phone-1.jpg">
             </a>
-            <p>Marca: Nothing</p>
-            <p>Modelo: Nothing Phone (1)</p>
+            <p class="marca">Marca: Nothing</p>
+            <p class="modelo">Modelo: Nothing Phone (1)</p>
             <p>Precio: desde 214€</p>
         </div>
         <div class="movil">
             <a href="./detalles-moviles/lg-velvet-5g.html">
              <img src="./imagenes/lg-velvet-5g.jpeg">
             </a>
-            <p>Marca: LG</p>
-            <p>Modelo: Velvet 5G</p>
+            <p class="marca">Marca: LG</p>
+            <p class="modelo">Modelo: Velvet 5G</p>
             <p>Precio: desde 279€</p>
         </div>
     </div>
+
+    <script src="script.js"></script>
+
+    
 <!--freefrontend.com

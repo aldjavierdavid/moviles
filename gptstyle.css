@@ -13,6 +13,40 @@ body {
     overflow-x: hidden; /* Evitar desplazamiento horizontal */
 }
 
+
+header {
+    display: flex;
+    justify-content: space-between;  /* Esto separa el título y el buscador */
+    align-items: center;             /* Alinea verticalmente el contenido */
+    padding: 10px 20px;
+    padding-right: 0px;
+    width: 56.5%;
+}
+
+header > h1 {
+    flex-shrink: 0;  /* Evita que el título se encoja */
+    color: darkseagreen;
+}
+
+header > #buscador img {
+    width: 2em;
+}
+
+header > #buscador button {
+    padding: 0.7em;
+    
+}
+
+#seleccionador {
+    float: right;
+    margin-right: 2em;
+}
+
+#buscador {
+    display: flex;
+    justify-content: center;  /* Centra los elementos dentro del buscador */
+}
+
 /* Asegurarse que las imágenes no desborden */
 img {
     display: block;
@@ -63,5 +97,7 @@ display: flex;
     justify-content: space-between; /* Distribuye los elementos en líneas */
     padding: 1rem; /* Espaciado interno */
     width: 100%;
+    /*background-color: darkolivegreen;*/
+    background: linear-gradient(to bottom, white, darkolivegreen) ;
     overflow: hidden; /* Evitar cualquier desbordamiento dentro de #padre */
 }
